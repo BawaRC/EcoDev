@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EcoDev</title>
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/carousel/">
+  <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.2/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.2/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.2/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+  <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#712cf9">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+
+    .b-example-divider {
+      height: 3rem;
+      background-color: rgba(0, 0, 0, .1);
+      border: solid rgba(0, 0, 0, .15);
+      border-width: 1px 0;
+      box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+    }
+
+    .b-example-vr {
+      flex-shrink: 0;
+      width: 1.5rem;
+      height: 100vh;
+    }
+
+    .bi {
+      vertical-align: -.125em;
+      fill: currentColor;
+    }
+
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+  </style>
+
+</head>
+
+<body style="padding-bottom: 0;">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color:#78A230 ;">
+      <div class="container-fluid">
+        <img src="media/Logo_og.png" alt="logo" style="max-width:70%; width:200px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"><b>Home</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="about.html"><b>About us</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="members.html"><b>Membership</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"><b>Events and news</b></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="contact_us.html"><b>Contact us</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <br><br>
+  <main>
+    <div class="container marketing bg-default bg-gradient text-dark"
+      style="max-width:100%; padding-left: 10%;padding-right: 10%;padding-top:5%; padding-bottom: 4%; margin-left: 0%; margin-right: 0%;">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>We provide networking opportunities, workshops, round-tables and educational opportunities throughout the year.<br>Get involved and help us grow the story of Southern sustainability.</p><br>
+          <h1 style="color:#78A230;">UPCOMING EVENTS</h1><br>
+        </div><!-- /.col-lg-4 -->
+        <div class="card col-lg-10 text-light" style="background-color:#b3c88b; padding-top:30px; padding-bottom: 30px; margin-top: 10px;">
+          <div class="row g-4 justify-content-between" >
+            <div class="col-md-7" style="font-size:x-large; padding-left: 50px;">
+              <h1>GREEN CHAMBER ANNUAL MEMBERSHIP MEETING</h1>
+              <p>When:Tuesday, August 17, 2021<br>10:00a.m. onwards<br>Virtual</p>
+              <a href="https://greenchamber1.wpenginepowered.com/events/2021-member-meeting/" class="btn btn-success">Learn More</a>
+            </div>
+            <img class="col-md-4 mt-0" src="media/GreenChamber.jpg" alt="GCS meetup" height="90%" width="100%" style="mix-blend-mode:color-burn">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- FOOTER -->
+  <footer style="background-color: #78A230; position: relative; bottom: 0px; left: 0px; right: 0px; margin-bottom: 0px;"
+    class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+    <p class="col-md-4 mb-0 text-light">&nbsp; <img src="media/logo_cut.png" height="35px">&nbsp;<b>The EcoDev Foundation &copy;</b></p>
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="ms-3"><a class="text-light" style="text-decoration: none; font-size: x-large;" href="https://www.facebook.com/" target="_blank"><b>f</b></a></li>
+      <li class="ms-3">&nbsp;</li>
+    </ul>
+  </footer>
+  <script src="/docs/5.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
